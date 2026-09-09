@@ -1,0 +1,39 @@
+.footer{
+    background-color: lightgoldenrodyellow;
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.footer hr{
+border: 0;
+border-top: 1px rgb(83, 80, 80);
+margin: 20px 0;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 25px 0;
+    
+
+}
+.foot a{
+    text-decoration: none;
+    color:#5a3d2b ;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.foot a:hover{
+    color: black;  
+
+}
+.footer-box{
+        display: flex;
+    flex-direction: column;
+    gap: 25px; 
+}
+#title{
+    margin: 35px 0;
+    color: b;
+}
