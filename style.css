@@ -18,7 +18,7 @@ header h1{
 header h1:hover{
 text-shadow: 4px 3px 5px white;
 }
-#banner{
+#banner {
     width: 100%;
     height: 950px;
     background-image: url(./image/ChatGPT\ Image\ Jul\ 8\,\ 2026\,\ 07_55_36\ PM.png);
@@ -28,61 +28,58 @@ text-shadow: 4px 3px 5px white;
     margin: 0 auto;
     padding: 40px 0;
 }
-.row{
-    width: 93%;
-    height: 80vh;
+
+.row {
+    width: 90%;
+    height: 650px;
     background-color: lightgoldenrodyellow;
     border-radius: 30px;
-    margin: 50px;
-    float: left;
-    margin-top: 120px;
-    padding-left: 120px;   
-   
-}
-.col{
-    width: 20%;
-    height: 400px;
-    background-color: white;
-    float: left;
-    border-radius: 30px;
-    margin: 30px;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin: 80px auto;
+    padding: 30px;
     text-align: center;
-   
-}
-#center{
-   margin-right: 80px;
-}
-.c1{
-margin-left: 150px;
-}
-h1{
-    font-style:italic;
-    color:rgb(72, 4, 4) ;
-    padding-top: 40px;
 }
 
-.col img{
+#center {
+    text-align: center;
+    color: rgb(72, 4, 4);
+    font-style: italic;
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+
+.col {
+    width: 30%;
+    height: 430px;
+    background-color: white;
+    border-radius: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1.4%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.col img {
     width: 100%;
-    height:300px;
+    height: 300px;
     border-radius: 30px;
     object-fit: cover;
-    
 }
-.col h1{
-    font-size:large ;
+
+.col h1 {
+    font-size: large;
     font-family: 'Times New Roman', Times, serif;
-    padding-top: 0px;
+    padding-top: 0;
 }
-.col button{
+
+.col button {
     margin: 30px;
     padding: 5px 25px;
     background-color: lightgoldenrodyellow;
     border-radius: 5px;
-
 }
-.col button:hover{
+
+.col button:hover {
     background-color: rgb(111, 17, 17);
     color: lightgoldenrodyellow;
 }
@@ -109,7 +106,7 @@ h1{
     background-color: rgb(236, 205, 164);
     float: left;
 
-    margin-left: 5%;
+    margin-left: 6%;
     margin-right: 0;
     margin-bottom: 36px;
 
@@ -140,4 +137,85 @@ h1{
     position: absolute;
     right: 18px;
     top: 10px;
+}
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    /* Header */
+    header {
+        height: 70px;
+    }
+
+    header h1 {
+        font-size: 32px;
+        padding-top: 15px;
+    }
+
+
+    /* Banner */
+    #banner {
+        height: 500px;
+        background-attachment: scroll;
+    }
+
+
+    /* Shop Now */
+    .row {
+        width: 90%;
+        height: auto;
+        margin: 50px auto;
+        padding: 25px 15px 40px;
+    }
+
+    #center {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .col {
+        width: 90%;
+        height: 430px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .col img {
+        height: 300px;
+    }
+
+
+    /* Categories */
+    .categories {
+        min-height: auto;
+        padding: 40px 0 50px;
+    }
+
+    #cat {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .col2 {
+        width: 88%;
+        height: 140px;
+        float: none;
+        margin: 20px auto;
+    }
+
+    .col2 h2 {
+        font-size: 22px;
+    }
+
+    .col2 p {
+        width: 65%;
+        font-size: 12px;
+    }
+
+    .col2 img {
+        width: 90px;
+        height: 90px;
+        right: 15px;
+        top: 20px;
+    }
 }
